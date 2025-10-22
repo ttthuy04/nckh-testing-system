@@ -33,9 +33,9 @@ Dự án **Kiểm thử phần mềm** cho hệ thống **Quản lý Đăng ký 
 
 | **Tài liệu**              | **Mô tả**                                                | **Liên kết**                                                                          |
 | ------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| 🗂 **Test Plan**           | Kế hoạch kiểm thử tổng quan                              | [📄 docs/test-results/test_PLAN_NCKH.md](docs/test-results/test_PLAN_NCKH.md)         |
-| 📋 **Test Cases**         | Danh sách các trường hợp kiểm thử (Jira / Google Sheets) | [📄 docs/test-results/testcase_NCKH.md](docs/test-results/testcase_NCKH.md)           |
-| 🐞 **Bug Report**         | Báo cáo lỗi phát hiện trong quá trình kiểm thử           | [📄 docs/test-results/BugReport_NCKH.md](docs/test-results/BugReport_NCKH.md)         |
+| 🗂 **Test Plan**           | Kế hoạch kiểm thử tổng quan                              | [📄 docs/test-results/test_PLAN_NCKH.md](docs/test_PLAN_NCKH.md)                      |
+| 📋 **Test Cases**         | Danh sách các trường hợp kiểm thử (Jira / Google Sheets) | [📄 docs/test-results/testcase_NCKH.md](docs/testcase_NCKH.md)                        |
+| 🐞 **Bug Report**         | Báo cáo lỗi phát hiện trong quá trình kiểm thử           | [📄 docs/test-results/BugReport_NCKH.md](docs/BugReport_NCKH.md)                      |
 | 📷 **Test Evidence**      | Ảnh minh chứng kết quả kiểm thử                          | [📁 docs/test-results/screenshots/](docs/test-results/screenshots/)                   |
 | 📊 **Manual Test Report** | Báo cáo kết quả kiểm thử thủ công cuối cùng              | [📄 docs/test-results/manual-test-report.md](docs/test-results/manual-test-report.md) |
 
