@@ -1,0 +1,19 @@
+[phases.setup]
+nixPkgs = ['php83', 'apacheHttpd', 'php83Packages.composer', 'nodejs-18_x']  
+nixOverlays = ['https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz']
+[phases.build]
+cmds = ['composer install --optimize-autoloader', 'npm install', 'npm run build']  
+[phases.setupApache]
+dependsOn = ['setup']
+cmds = [
+  'mkdir -p /etc/httpd/conf.d',
+  'echo "LoadModule proxy_module modules/mod_proxy.so" > /etc/httpd/conf.d/proxy.conf',
+  'echo "LoadModule proxy_fcgi_module modules/mod_proxy_fcgi.so" >> /etc/httpd/conf.d/proxy.conf',
+  'echo "ServerName localhost" > /etc/httpd/conf.d/servername.conf'  # Tắt cảnh báo AH00558
+]
+
+[start]
+cmd = "vendor/bin/heroku-php-apache2 public/"
+
+[variables]
+NIXPACKS_NO_NPM = "1"

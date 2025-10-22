@@ -1,0 +1,18 @@
+php artisan migrate:fresh --seed -- Xóa toàn bộ dữ liệu cơ sở dữ liệu    
+
+
+php artisan db:seed --class=TaikhoanTableSeeder
+php artisan db:seed --class=KhoaTableSeeder
+php artisan db:seed --class=GiangVienTableSeeder
+php artisan db:seed --class=SinhVienTableSeeder
+php artisan db:seed --class=NhanVienPhongDaoTaoTableSeeder
+php artisan db:seed --class=NhanVienVanPhongKhoaTableSeeder
+php artisan db:seed --class=DeTaiTableSeeder
+php artisan db:seed --class=LoiMoiHuongDanTableSeeder
+php artisan db:seed --class=SinhVienDeTaiTableSeeder
+php artisan db:seed --class=BaoCaoNghienCuuTableSeeder
+php artisan db:seed --class=NhanXetBaoCaoTableSeeder
+php artisan db:seed --class=HoiDongDanhGiaTableSeeder
+php artisan db:seed --class=HoiDongGiangVienTableSeeder
+php artisan db:seed --class=LichTrinhBaoVeTableSeeder
+php artisan db:seed --class=TinTucTableSeeder
