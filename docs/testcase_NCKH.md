@@ -3,7 +3,7 @@
 📄 **Xem toàn bộ file Test Case tại Google Sheet:**
 👉 [Mở TestCases_NCKH trên Google Sheet]
 
--   Front_end: (https://docs.google.com/spreadsheets/d/1KFivKJLHD6iUFStLtaWvY0805SgnYzIG1V6HGdGNVhs/edit?gid=0#gid=0)
--   Back_end: (https://docs.google.com/spreadsheets/d/1HmQJmBrQ43age-6axVFZqSLVA1YTFFlXY4pWRxK9JX4/edit?gid=0#gid=0)
+-   Front_end: (https://docs.google.com/spreadsheets/d/15TxVFNpqdqXqmklpexWbpzMVwCMyIBSERVQokBIAFfE/edit?gid=89202385#gid=89202385)
+-   Back_end: (https://docs.google.com/spreadsheets/d/1sSXUADM7pPuwTuz9Mk_i3FV65cjXXETQjUjRF_JP9C0/edit?gid=0#gid=0)
 
 ---
